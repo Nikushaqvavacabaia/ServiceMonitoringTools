@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gradient-btn { 
+  color: #FFF;
+  display: inline-block;
+  height: 20px;
+  width: 50px;
+  margin-left: 8px;
+
+  box-shadow: 5px 5px 2px -2px #a5a5a5;
+}
+.btn-11 {
+  background: linear-gradient(to right, #152340, #2c519b);
+}
+ 
+.gradient-btn:nth-child(odd):hover {
+  cursor: pointer;
+  box-shadow: -6px -9px 2px -2px #a5a5a5;
+  transition: all 2s ease;
+  transform: translateX(10px);
+}
+ 
+.gradient-btn:nth-child(even):hover {
+  cursor: pointer;
+  box-shadow: 8px 8px 2px -2px #a5a5a5;
+  transition: all 2s ease;
+  transform: translateX(-10px);
+} 
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
+  }
+  
+.navbar{
+    align-items: center;
+    text-align: center;
+}
+hr{
+  width: 50%;
+  margin-left: 25%;
+}
+.logo{
+    width: 250px;
+}
+.buttons{
+    align-items: center;
+    text-align: center;
+    
+}
+.banksEcommerce , .isp, .fbn, .slot, .graphall{
+    margin-top: 100px;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    font-family: calibri;
+    font-size: 20px;
+    background-color: #152340;
+    color: #92A88E;
+    margin-left: 50px;
+    border: none;
+}
+.register_button{
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  color: #000000;
+  border-radius: 20px;
+  border:none;
+}
+
+.form-control{
+  border: 1px solid;
+}
+.form-control{
+  text-align: center;
+  background-color: #7cf8a1;
+  height: 30px;
+  border: none;
+}
+.search{
+  
+  text-align: center;
+  align-items: center;
+
+  margin-top: 30px;
+}
+.search_button{
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  color: #000000;
+  border-radius: 20px;
+  border:none;
+}
+.search_button:hover{
+  background-color: #85CF9B;
+  color: #152340;
+}
+
+.statistic_button{
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  color: #000000;
+  border-radius: 20px;
+  border:none;
+}
+.statistic_button:hover{
+  background-color: #a6e6cd;
+  color: #152340;
+}
+.register_button:hover{
+  background-color: #85CF9B;
+  color: #152340;
+}
+.banksEcommerce:hover ,.slot:hover, .isp:hover, .fbn:hover, .graphall:hover{
+    background-color: #85CF9B;
+    color: #152340;
+    
+}
+a{
+    text-decoration: none;
+}
+
+footer{
+    margin-top:100px;
+    align-items: center;
+    text-align: center;
+    height:300px;
+    font-family: calibri;
+    background-color: #152340;
+}
+.lightlogo{
+    width: 200px;
+}
+.line{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 3px;
+    width: 200px;
+}
+.footerHeader{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.productBody{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65%;
+    position: sticky;
+    align-items: center;
+    text-align: center;
+    font-family: calibri;
+}
+
+.graph{
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+}
+.productHeader{
+  margin-top:20px;
+}
+.box{
+  background-color: #6bad4c;
+  height: 100%;
+  width: 20px;
+  margin-left:2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.box.activeyellow{
+  background-color: yellow;
+}
+.box.activered{
+  background-color: red;
+}
+.tooltiptext{
+  margin-top: 30px;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.box:hover .tooltiptext {
+  visibility: visible;
+}
+@media only screen and (max-width: 1200px) {
+
+  .productBody{
+    display: none;
+  }
+}
+
+.table_a {
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+.table_a:focus {
+	outline: none !important;
+}
+
+.table_a:hover {
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {margin: 0px;}
+
+.table_p {margin: 0px;}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+.table_input {
+  display: block;
+	outline: none;
+	border: none !important;
+}
+
+textarea {
+  display: block;
+  outline: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+.table_button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+.table_button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: sans-serif;
+}
+.container-table100 {
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.wrap-table100 {
+  width: 100%;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+table * {
+  width: 90px;
+  position: relative;
+}
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 60px;
+  background: #15AF44;
+}
+table tbody tr {
+  height: 50px;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+.provider_link{
+  
+  text-decoration: none;
+  color:#152340;
+}
+.table100-head th{
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  border: solid #06692c;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tbody tr {
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:hover {
+  color: #555555;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.column1 {
+  border: #ff0000 5px;
+  width: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.column2 {
+    align-items: center;
+    text-align: center;
+}
+
+.column3 {
+    align-items: center;
+    text-align: center;
+}
+
+.column4 {
+    align-items: center;
+    text-align: center;
+}
+
+.column5 {
+    align-items: center;
+    text-align: center;
+}
+
+.column6 {
+    align-items: center;
+    text-align: center;
+}
+.column7 {
+    align-items: center;
+    text-align: center;
+}
+.column8 {
+    align-items: center;
+    text-align: center;
+}
+.column9 {
+    align-items: center;
+    text-align: center;
+}
+.column10 {
+    align-items: center;
+    text-align: center;
+}
+.column11 {
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  table {
+    display: block;
+  }
+  table > *, table tr, table td, table th {
+    display: block;
+  }
+  table thead {
+    display: none;
+  }
+  table tbody tr {
+    height: auto;
+    padding: 37px 0;
+  }
+  table tbody tr td {
+    padding-left: 40% !important;
+    margin-bottom: 24px;
+  }
+  table tbody tr td:last-child {
+    margin-bottom: 0;
+  }
+  table tbody tr td:before {
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.2;
+    font-weight: unset;
+    position: absolute;
+    width: 40%;
+    left: 30px;
+    top: 0;
+  }
+  table tbody tr td:nth-child(1):before {
+    content: "Date";
+  }
+  table tbody tr td:nth-child(2):before {
+    content: "Order ID";
+  }
+  table tbody tr td:nth-child(3):before {
+    content: "Name";
+  }
+  table tbody tr td:nth-child(4):before {
+    content: "Price";
+  }
+  table tbody tr td:nth-child(5):before {
+    content: "Quantity";
+  }
+  table tbody tr td:nth-child(6):before {
+    content: "Total";
+  }
+  .column4,
+  .column5,
+  .column6 {
+    text-align: left;
+  }
+  .column4,
+  .column5,
+  .column6,
+  .column1,
+  .column2,
+  .column3 {
+    width: 100%;
+  }
+  tbody tr {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .container-table100 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.btn-danger{
+  background-color: red;
+  color: white;
+  width: 30px;
+  border-radius: 30px;
+  border: none;
+}
+.btn-edit{
+  background-color: rgb(255, 217, 0);
+  color: white;
+  width: 30px;
+  border-radius: 30px;
+  border: none;
+}
+.headerEdit{
+  font-family: calibri;
+  margin-left: 7px;
+}
+.submit{
+  background-color: #40dd6f;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  float: right; 
+}
+.submit:hover{
+  background-color: #a9ecbd;
+  color: rgb(14, 9, 9);
+}
+.edit{
+  background-color: #c0dd40;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  float: right; 
+}
+.edit:hover{
+  background-color: #ebeca9;
+  color: rgb(14, 9, 9);
+}
+.cancel{
+  background-color: #dd4040;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  float: right;
+  margin-right: 10px;
+}
+.cancel:hover{
+  background-color: #eca9a9;
+  color: rgb(14, 9, 9);
+}
+.logohome{
+  width: 100px;
+}
+.black{
+  position: absolute;
+  background-color: black;
+  height: 100vh;
+}
+  
+    
+
+.b-skills
+{
+   border-top: 1px solid #f9f9f9;
+   padding-top: 46px;
+   text-align: center;
+}
+
+.b-skills:last-child { margin-bottom: -30px; }
+
+.b-skills h2 { margin-bottom: 50px; font-weight: 900; text-transform: uppercase;}
+
+.skill-item
+{
+   position: relative;
+   max-width: 250px;
+   width: 100%;
+   margin-bottom: 30px;
+   color: #555;
+}
+
+.chart-container
+{
+   position: relative;
+   width: 100%;
+   height: 0;
+   padding-top: 100%;
+   margin-bottom: 27px;
+}
+
+.skill-item .chart,
+.skill-item .chart canvas
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100% !important;
+   height: 100% !important;
+}
+
+.skill-item .chart:before
+{
+   content: "";
+   width: 0;
+   height: 100%;
+}
+
+.skill-item .chart:before,
+.skill-item .percent
+{
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.skill-item .percent
+{
+   position: relative;
+   line-height: 1;
+   font-size: 40px;
+   font-weight: 900;
+   z-index: 2;
+}
+
+.skill-item  .percent:after
+{
+   content: attr(data-after);
+   font-size: 20px;
+}
+      
+      p{
+          font-weight: 900;
+      }
+
+   
